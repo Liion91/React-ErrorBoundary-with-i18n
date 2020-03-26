@@ -18,7 +18,7 @@ class ErrorBoundary extends React.Component {
         if (error instanceof CustomError) {
             this.setState({
                 hasCustomError: true,
-                error: error
+                error: errornpm 
             });
         } else {
             this.setState({
